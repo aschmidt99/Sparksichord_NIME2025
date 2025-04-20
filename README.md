@@ -23,6 +23,7 @@ where $\mathbf{F}$ is the force vector felt by the wire, $I$ is the current thro
 It is possible to drive a string with an oscillator tuned to match the string’s frequency, but doing so is not particularly effective. Depending on the material properties of the actuated string, some of the actuation current may be dissipated as heat in the string’s internal resistance, introducing thermal expansion of the string and causing it to lengthen and reduce its tension. This brings the frequency of the string down causing it to no longer match the frequency of the open-loop actuation signal.
 
 The resistivity of some conductive metals are displayed in the figure below. Metals such as yellow and red brass are much less resistive than iron and steel, meaning they are more robust to string detuning, though it should be noted that heat treatment or work-hardening of the string material is also a factor, where annealed metal will typically have higher conductivity than a heat-treated metal. Heat-treating or other processes that increase the stength of a metal string are often required for strings to withstand the tensions typically found in musical instruments, so it is fair to assume any wire intended for stringing instruments will have slightly greater resistivity than in the figure below.
+
 ![Conductivity](Figures/Conductivity.svg)
 
 The intensity of detuning is proportional to its heat buildup and therefore proportional to the resistivity inherent to the string:
@@ -53,7 +54,7 @@ To capture how far each key is pressed (to set each limiter circuit's threshold 
 
 # 12-Channel PCB
 There are four of these 12-channel sustainer control boards on the Sparksichord:
-![Optical Sensors Under Keys](Figures/12_channel_Sustainer.jpg)
+![Optical Sensors Under Keys](Figures/12_Channel_Sustainer.jpg)
 
 # Magnet Placement
 Running AC signal through a string doesn't make the string vibrate unless there is a magnetic field nearby. To create a relatively uniform magnetic field for all of the strings, we created a rail that holds 24 N52 Neodymium magnets in uniformly-spaced slots. The position of each magnet can be adjusted to find a desirable feedback timbre:
