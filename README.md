@@ -26,11 +26,13 @@ The resistivity of some conductive metals are displayed in the figure below. Met
 ![Conductivity](Figures/Conductivity.svg)
 
 The intensity of detuning is proportional to its heat buildup and therefore proportional to the resistivity inherent to the string:
+
 $$
 \begin{align}
   Q = I^2Rt
 \end{align}
 $$
+
 where $Q$ = heat buildup, $I$ = electric current, $R$ = resistance, and $t$ = time. Though this formula suggests that the string may heat up and continue to detune indefinitely as electric current is applied, there is an element of heat dissipation into the surrounding air and any other materials the string is in contact with.  In other words, for a real system, the detuning effect from heat buildup eventually finds equilibrium with the heat dissipation, stabilizing the tuning for a given electric current at a given room temperature.
 
 # Lorentz Force Feedback via Optical Sensor
