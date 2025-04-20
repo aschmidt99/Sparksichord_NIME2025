@@ -6,9 +6,9 @@
 ![EM_Harpsichord](Figures/Sparksichord_teaser.png)
 The Sparksichord is a practical implementation of a 4-octave/48-channel Lorentz Force feedback sustainer system using brass strings, permanent magnets, optical sensors, and custom analog electronics. The Sparksichord is an augmentation of a 1970’s Zuckermann ‘Z-Box’ Harpsichord and uses its own keyboard to control the volume of each string’s feedback/actuation. Here we provide a basic overview of the working principles of the Sparksichord. For a more comprehensive guide to Lorentz Force actuation, please see _The Sparksichord: Practical Implementation of a Lorentz Force Electromagnetic Actuation and Feedback System_.
 
-<!-- [![Sparksichord Youtube Clip](Sparksichord_Youtube.png)](//www.youtube.com/shorts/jK8IH_FwZ0k "Sparksichord Demo - Click to Watch!") -->
+[![Sparksichord Youtube Clip](Sparksichord_Youtube.png)](https://youtu.be/jK8IH_FwZ0k?si=krZlIW6T12MVXDZI)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jK8IH_FwZ0k?si=aWVyvcKhN9UiZ2wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/jK8IH_FwZ0k?si=aWVyvcKhN9UiZ2wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
 # Lorentz Force
 The cumulative force felt by a charged particle exposed to electric and magnetic fields is known as the _Lorentz Force_. A special case of the Lorentz Force (sometimes referred to as the _Laplace Force_) describes the magnetic force felt by a current-carrying wire exposed to a magnetic field:
