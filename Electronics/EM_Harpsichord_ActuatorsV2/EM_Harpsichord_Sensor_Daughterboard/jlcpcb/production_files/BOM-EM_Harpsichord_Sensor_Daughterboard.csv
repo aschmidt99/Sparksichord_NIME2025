@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC
+Conn_01x03_Male,J1,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,C161870
+ITR20403,U1,Everlight_ITR20403,C5135
+PT_out,TP3,TestPoint_THTPad_D2.0mm_Drill1.0mm,
+MountingHole,TP2,TestPoint_THTPad_D2.0mm_Drill1.0mm,
+0,R2,R_0603_1608Metric,
+DNP,R4,R_0603_1608Metric,
+220,R1,R_0603_1608Metric,
+PT_out,TP1,TestPoint_THTPad_D2.0mm_Drill1.0mm,
+20k,R3,R_0603_1608Metric,

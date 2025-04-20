@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Conn_01x03_Male,JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal,101.75,-76.5,180.0,top
+R1,220,R_0603_1608Metric,97.5,-100.825,-90.0,top
+R2,0,R_0603_1608Metric,100.25,-100.825,-90.0,top
+R3,20k,R_0603_1608Metric,103.0,-100.825,-90.0,top
+R4,DNP,R_0603_1608Metric,105.75,-100.825,-90.0,top
+U1,ITR20403,Everlight_ITR20403,101.75,-107.0,90.0,top
