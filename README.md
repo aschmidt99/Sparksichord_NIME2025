@@ -18,3 +18,15 @@ $$
 where $\mathbf{F}$ is the force vector felt by the wire, $I$ is the current through the wire, $\mathbf{B}$ is the magnetic field vector, and $\mathbf{L}$ is the length of the wire exposed to the magnetic field.
 
 ![Lorentz Force Overview](Figures/Lorentz_Actuation.png)
+
+## Heat Buildup \& String Detuning
+![Conductivity](Figures/Conductivity.svg)
+
+# Lorentz Force Feedback via Optical Sensor
+![Lorentz Force Feedback via Optical Sensor](Figures/Lorentz_Sustain.png)
+
+![Optical Sensor Array](Figures/Optical_String_Sensors.png)
+
+# Controlling Feedback with Keyboard
+![Optical Sensor Array](Figures/Optical_KeySense.png)
+![Optical Sensor Array](Figures/Optical_Sensors_Under_Keys.png)
