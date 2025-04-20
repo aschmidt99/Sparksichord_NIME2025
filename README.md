@@ -8,11 +8,13 @@ The Sparksichord is a practical implementation of a 4-octave/48-channel Lorentz 
 
 # Lorentz Force
 The cumulative force felt by a charged particle exposed to electric and magnetic fields is known as the _Lorentz Force_. A special case of the Lorentz Force (sometimes referred to as the _Laplace Force_) describes the magnetic force felt by a current-carrying wire exposed to a magnetic field:
-\begin{equation}
+
+$$
+\begin{align}
  \mathbf{F} = I \mathbf{L} \times \mathbf{B}
- \label{eq:LorentzLaw}
-\end{equation}
+\end{align}
+$$
 
 where $\mathbf{F}$ is the force vector felt by the wire, $I$ is the current through the wire, $\mathbf{B}$ is the magnetic field vector, and $\mathbf{L}$ is the length of the wire exposed to the magnetic field.
 
-![Lorentz Force Overview](Figures/Lorentz_Actuation.pdf)
+![Lorentz Force Overview](Figures/Lorentz_Actuation.png)
