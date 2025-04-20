@@ -8,11 +8,7 @@ The Sparksichord is a practical implementation of a 4-octave/48-channel Lorentz 
 
 <!-- [![Sparksichord Youtube Clip](Sparksichord_Youtube.png)](//www.youtube.com/shorts/jK8IH_FwZ0k "Sparksichord Demo - Click to Watch!") -->
 
-<iframe width="560" height="315"
-src="https://youtube.com/embed/jK8IH_FwZ0k?si=hl9F30_9H1Q6ZNVr"
-frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jK8IH_FwZ0k?si=aWVyvcKhN9UiZ2wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Lorentz Force
 The cumulative force felt by a charged particle exposed to electric and magnetic fields is known as the _Lorentz Force_. A special case of the Lorentz Force (sometimes referred to as the _Laplace Force_) describes the magnetic force felt by a current-carrying wire exposed to a magnetic field:
