@@ -6,13 +6,9 @@
 ![EM_Harpsichord](Figures/Sparksichord_teaser.png)
 The Sparksichord is a practical implementation of a 4-octave/48-channel Lorentz Force feedback sustainer system using brass strings, permanent magnets, optical sensors, and custom analog electronics. The Sparksichord is an augmentation of a 1970’s Zuckermann ‘Z-Box’ Harpsichord and uses its own keyboard to control the volume of each string’s feedback/actuation. Here we provide a basic overview of the working principles of the Sparksichord. For a more comprehensive guide to Lorentz Force actuation, please see _The Sparksichord: Practical Implementation of a Lorentz Force Electromagnetic Actuation and Feedback System_.
 
+
+## Audiovisual example:
 [![Sparksichord Youtube Clip](Figures/Sparksichord_Youtube.jpg)](https://www.youtube.com/watch?v=jK8IH_FwZ0k)
-
-<!-- [![Sparksichord Youtube Clip](Figures/Sparkischord_Youtube.jpg)](https://www.youtube.com/watch?v=jK8IH_FwZ0k) -->
-
-img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg
-
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/jK8IH_FwZ0k?si=aWVyvcKhN9UiZ2wc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
 # Lorentz Force
 The cumulative force felt by a charged particle exposed to electric and magnetic fields is known as the _Lorentz Force_. A special case of the Lorentz Force (sometimes referred to as the _Laplace Force_) describes the magnetic force felt by a current-carrying wire exposed to a magnetic field:
@@ -27,8 +23,9 @@ where $\mathbf{F}$ is the force vector felt by the wire, $I$ is the current thro
 
 ![Lorentz Force Overview](Figures/Lorentz_Actuation.png)
 
+Inputing an audio signal to the string such as white noise, you should hear the string vibrate most prominently at its natural resonant frequencies. It is possible to drive a string with an oscillator tuned to match the string’s fundamental frequency, but doing so can be tricky. Depending on the material properties of the actuated string, some of the actuation current may be dissipated as heat in the string’s internal resistance, introducing thermal expansion of the string and causing it to lengthen and reduce its tension. This brings the frequency of the string down causing it to no longer match the frequency of the open-loop actuation signal.
+
 ## Heat Buildup \& String Detuning
-It is possible to drive a string with an oscillator tuned to match the string’s frequency, but doing so is not particularly effective. Depending on the material properties of the actuated string, some of the actuation current may be dissipated as heat in the string’s internal resistance, introducing thermal expansion of the string and causing it to lengthen and reduce its tension. This brings the frequency of the string down causing it to no longer match the frequency of the open-loop actuation signal.
 
 The resistivity of some conductive metals are displayed in the figure below. Metals such as yellow and red brass are much less resistive than iron and steel, meaning they are more robust to string detuning, though it should be noted that heat treatment or work-hardening of the string material is also a factor, where annealed metal will typically have higher conductivity than a heat-treated metal. Heat-treating or other processes that increase the stength of a metal string are often required for strings to withstand the tensions typically found in musical instruments, so it is fair to assume any wire intended for stringing instruments will have slightly greater resistivity than in the figure below.
 
