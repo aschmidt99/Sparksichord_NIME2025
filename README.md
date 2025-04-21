@@ -6,9 +6,7 @@
 ![EM_Harpsichord](Figures/Sparksichord_teaser.png)
 The Sparksichord is a practical implementation of a 4-octave/48-channel Lorentz Force feedback sustainer system using brass strings, permanent magnets, optical sensors, and custom analog electronics. The Sparksichord is an augmentation of a 1970’s Zuckermann ‘Z-Box’ Harpsichord and uses its own keyboard to control the volume of each string’s feedback/actuation. Here we provide a basic overview of the working principles of the Sparksichord. For a more comprehensive guide to Lorentz Force actuation, please see _The Sparksichord: Practical Implementation of a Lorentz Force Electromagnetic Actuation and Feedback System_.
 
-![Sparksichord Youtube Clip](Figures/Sparkischord_Youtube.jpg)
-
-<!-- [![Sparksichord Youtube Clip](Figures/Sparkischord_Youtube.jpg)](https://www.youtube.com/watch?v=jK8IH_FwZ0k) -->
+[![Sparksichord Youtube Clip](Figures/Sparksichord_Youtube.jpg)](https://www.youtube.com/watch?v=jK8IH_FwZ0k)
 
 <!-- [![Sparksichord Youtube Clip](Figures/Sparkischord_Youtube.jpg)](https://www.youtube.com/watch?v=jK8IH_FwZ0k) -->
 
